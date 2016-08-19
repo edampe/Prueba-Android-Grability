@@ -1,0 +1,990 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_stands_apps"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:background="@drawable/stand"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:scaleType="centerInside" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:scaleType="centerInside">
+
+            <LinearLayout
+                android:id="@+id/linear_1_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dime_margin_img_app"
+                android:layout_marginRight="@dimen/dime_margin_img_app"
+                android:layout_weight="30"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:scaleType="centerInside" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="70">
+
+                    <ImageView
+                        android:id="@+id/img_apps_1_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icono_prueba" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginLeft="@dimen/dime_margin_img_app"
+                        android:layout_marginRight="@dimen/dime_margin_img_app"
+                        android:background="@android:color/holo_red_dark" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:background="@drawable/drawable">
+
+                    <TextView
+                        android:id="@+id/txt_apps_1_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:src="@drawable/fondo_precio">
+
+                    </TextView>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_1_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dime_margin_img_app"
+                android:layout_marginRight="@dimen/dime_margin_img_app"
+                android:layout_weight="30"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:scaleType="centerInside" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="70">
+
+                    <ImageView
+                        android:id="@+id/img_apps_1_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+
+
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icono_prueba" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginLeft="@dimen/dime_margin_img_app"
+                        android:layout_marginRight="@dimen/dime_margin_img_app"
+                        android:background="@android:color/holo_red_dark" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:background="@drawable/drawable">
+
+                    <TextView
+                        android:id="@+id/txt_apps_1_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:src="@drawable/fondo_precio">
+
+                    </TextView>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_1_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dime_margin_img_app"
+                android:layout_marginRight="@dimen/dime_margin_img_app"
+                android:layout_weight="30"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:scaleType="centerInside" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="70">
+
+                    <ImageView
+                        android:id="@+id/img_apps_1_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+
+
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icono_prueba" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginLeft="@dimen/dime_margin_img_app"
+                        android:layout_marginRight="@dimen/dime_margin_img_app"
+                        android:background="@android:color/holo_red_dark" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:background="@drawable/drawable">
+
+                    <TextView
+                        android:id="@+id/txt_apps_1_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:src="@drawable/fondo_precio">
+
+                    </TextView>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_1_4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dime_margin_img_app"
+                android:layout_marginRight="@dimen/dime_margin_img_app"
+                android:layout_weight="30"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:scaleType="centerInside" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="70">
+
+                    <ImageView
+                        android:id="@+id/img_apps_1_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+
+
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icono_prueba" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginLeft="@dimen/dime_margin_img_app"
+                        android:layout_marginRight="@dimen/dime_margin_img_app"
+                        android:background="@android:color/holo_red_dark" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:background="@drawable/drawable">
+
+                    <TextView
+                        android:id="@+id/txt_apps_1_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:src="@drawable/fondo_precio">
+
+                    </TextView>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_1_5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dime_margin_img_app"
+                android:layout_marginRight="@dimen/dime_margin_img_app"
+                android:layout_weight="30"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:scaleType="centerInside" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="70">
+
+                    <ImageView
+                        android:id="@+id/img_apps_1_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+
+
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icono_prueba" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginLeft="@dimen/dime_margin_img_app"
+                        android:layout_marginRight="@dimen/dime_margin_img_app"
+                        android:background="@android:color/holo_red_dark" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:background="@drawable/drawable">
+
+                    <TextView
+                        android:id="@+id/txt_apps_1_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:src="@drawable/fondo_precio">
+
+                    </TextView>
+                </FrameLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:scaleType="centerInside" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:background="@drawable/stand"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:scaleType="centerInside" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:scaleType="centerInside">
+
+            <LinearLayout
+                android:id="@+id/linear_2_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dime_margin_img_app"
+                android:layout_marginRight="@dimen/dime_margin_img_app"
+                android:layout_weight="30"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:scaleType="centerInside" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="70">
+
+                    <ImageView
+                        android:id="@+id/img_apps_2_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icono_prueba" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginLeft="@dimen/dime_margin_img_app"
+                        android:layout_marginRight="@dimen/dime_margin_img_app"
+                        android:background="@android:color/holo_red_dark" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:background="@drawable/drawable">
+
+                    <TextView
+                        android:id="@+id/txt_apps_2_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:src="@drawable/fondo_precio">
+
+                    </TextView>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_2_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dime_margin_img_app"
+                android:layout_marginRight="@dimen/dime_margin_img_app"
+                android:layout_weight="30"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:scaleType="centerInside" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="70">
+
+                    <ImageView
+                        android:id="@+id/img_apps_2_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+
+
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icono_prueba" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginLeft="@dimen/dime_margin_img_app"
+                        android:layout_marginRight="@dimen/dime_margin_img_app"
+                        android:background="@android:color/holo_red_dark" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:background="@drawable/drawable">
+
+                    <TextView
+                        android:id="@+id/txt_apps_2_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:src="@drawable/fondo_precio">
+
+                    </TextView>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_2_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dime_margin_img_app"
+                android:layout_marginRight="@dimen/dime_margin_img_app"
+                android:layout_weight="30"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:scaleType="centerInside" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="70">
+
+                    <ImageView
+                        android:id="@+id/img_apps_2_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+
+
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icono_prueba" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginLeft="@dimen/dime_margin_img_app"
+                        android:layout_marginRight="@dimen/dime_margin_img_app"
+                        android:background="@android:color/holo_red_dark" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:background="@drawable/drawable">
+
+                    <TextView
+                        android:id="@+id/txt_apps_2_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:src="@drawable/fondo_precio">
+
+                    </TextView>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_2_4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dime_margin_img_app"
+                android:layout_marginRight="@dimen/dime_margin_img_app"
+                android:layout_weight="30"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:scaleType="centerInside" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="70">
+
+                    <ImageView
+                        android:id="@+id/img_apps_2_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+
+
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icono_prueba" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginLeft="@dimen/dime_margin_img_app"
+                        android:layout_marginRight="@dimen/dime_margin_img_app"
+                        android:background="@android:color/holo_red_dark" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:background="@drawable/drawable">
+
+                    <TextView
+                        android:id="@+id/txt_apps_2_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:src="@drawable/fondo_precio">
+
+                    </TextView>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_2_5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dime_margin_img_app"
+                android:layout_marginRight="@dimen/dime_margin_img_app"
+                android:layout_weight="30"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:scaleType="centerInside" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="70">
+
+                    <ImageView
+                        android:id="@+id/img_apps_2_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+
+
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icono_prueba" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginLeft="@dimen/dime_margin_img_app"
+                        android:layout_marginRight="@dimen/dime_margin_img_app"
+                        android:background="@android:color/holo_red_dark" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:background="@drawable/drawable">
+
+                    <TextView
+                        android:id="@+id/txt_apps_2_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:src="@drawable/fondo_precio">
+
+                    </TextView>
+                </FrameLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:scaleType="centerInside" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:background="@drawable/stand"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:scaleType="centerInside" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:scaleType="centerInside">
+
+            <LinearLayout
+                android:id="@+id/linear_3_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dime_margin_img_app"
+                android:layout_marginRight="@dimen/dime_margin_img_app"
+                android:layout_weight="30"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:scaleType="centerInside" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="70">
+
+                    <ImageView
+                        android:id="@+id/img_apps_3_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+
+
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icono_prueba" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginLeft="@dimen/dime_margin_img_app"
+                        android:layout_marginRight="@dimen/dime_margin_img_app"
+                        android:background="@android:color/holo_red_dark" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:background="@drawable/drawable">
+
+                    <TextView
+                        android:id="@+id/txt_apps_3_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:src="@drawable/fondo_precio">
+
+                    </TextView>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_3_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dime_margin_img_app"
+                android:layout_marginRight="@dimen/dime_margin_img_app"
+                android:layout_weight="30"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:scaleType="centerInside" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="70">
+
+                    <ImageView
+                        android:id="@+id/img_apps_3_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+
+
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icono_prueba" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginLeft="@dimen/dime_margin_img_app"
+                        android:layout_marginRight="@dimen/dime_margin_img_app"
+                        android:background="@android:color/holo_red_dark" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:background="@drawable/drawable">
+
+                    <TextView
+                        android:id="@+id/txt_apps_3_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:src="@drawable/fondo_precio">
+
+                    </TextView>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_3_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dime_margin_img_app"
+                android:layout_marginRight="@dimen/dime_margin_img_app"
+                android:layout_weight="30"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:scaleType="centerInside" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="70">
+
+                    <ImageView
+                        android:id="@+id/img_apps_3_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+
+
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icono_prueba" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginLeft="@dimen/dime_margin_img_app"
+                        android:layout_marginRight="@dimen/dime_margin_img_app"
+                        android:background="@android:color/holo_red_dark" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:background="@drawable/drawable">
+
+                    <TextView
+                        android:id="@+id/txt_apps_3_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:src="@drawable/fondo_precio">
+
+                    </TextView>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_3_4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dime_margin_img_app"
+                android:layout_marginRight="@dimen/dime_margin_img_app"
+                android:layout_weight="30"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:scaleType="centerInside" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="70">
+
+                    <ImageView
+                        android:id="@+id/img_apps_3_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+
+
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icono_prueba" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginLeft="@dimen/dime_margin_img_app"
+                        android:layout_marginRight="@dimen/dime_margin_img_app"
+                        android:background="@android:color/holo_red_dark" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:background="@drawable/drawable">
+
+                    <TextView
+                        android:id="@+id/txt_apps_3_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:src="@drawable/fondo_precio">
+
+                    </TextView>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_3_5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dime_margin_img_app"
+                android:layout_marginRight="@dimen/dime_margin_img_app"
+                android:layout_weight="30"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:scaleType="centerInside" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="70">
+
+                    <ImageView
+                        android:id="@+id/img_apps_3_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|bottom"
+
+
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icono_prueba" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginLeft="@dimen/dime_margin_img_app"
+                        android:layout_marginRight="@dimen/dime_margin_img_app"
+                        android:background="@android:color/holo_red_dark" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:background="@drawable/drawable">
+
+                    <TextView
+                        android:id="@+id/txt_apps_3_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:src="@drawable/fondo_precio">
+
+                    </TextView>
+                </FrameLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:scaleType="centerInside" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10" />
+
+</LinearLayout>

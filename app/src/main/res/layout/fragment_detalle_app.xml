@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frament_detalle_app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".ui.fragment.DetalleAppFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40">
+
+        <ImageButton
+            android:id="@+id/img_cerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="@dimen/dime_margin_img_app"
+            android:layout_marginTop="@dimen/dime_margin_img_app"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <ImageView
+            android:id="@+id/img_app"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="@dimen/dime_margin_img_app"
+            android:src="@drawable/icono_prueba" />
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/txt_nombre_app"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:textColor="@color/text"
+        android:textSize="@dimen/dime_txt_nombre_app"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/txt_precion_img"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:textColor="@color/color_txt_precio"
+        android:textSize="@dimen/dime_txt_precio_app"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="left|center"
+        android:paddingLeft="@dimen/dime_padding_detalles"
+        android:text="@string/app_detalles"
+        android:textColor="@color/text"
+        android:textSize="@dimen/dime_txt_nom_detalle_app" />
+
+    <TextView
+        android:id="@+id/txt_detalles_apps"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/dime_margin_layout"
+        android:layout_weight="30"
+        android:gravity="left|top"
+        android:paddingLeft="@dimen/dime_padding_txt_detalles"
+        android:paddingRight="@dimen/dime_margin_layout"
+        android:textColor="@color/text"
+        android:textSize="@dimen/dime_txt_detalles_app"
+        android:scrollbars = "vertical"/>
+</LinearLayout>

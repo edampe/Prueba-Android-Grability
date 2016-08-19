@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff9160</color>
+    <color name="colorPrimaryDark">#ff9160</color>
+    <color name="colorAccent">#ff9160</color>
+    <color name="text">#000000</color>
+    <color name="back_img_categorias">#f6ff8250</color>
+    <color name="app_bar_apps">#ffffff</color>
+    <color name="color_txt_precio">#ff8000</color>
+
+</resources>

@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Apps</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="cod_1">6018</string>
+    <string name="str_1">Books</string>
+
+    <string name="cod_2">6000</string>
+    <string name="str_2">Business</string>
+
+    <string name="cod_3">6022</string>
+    <string name="str_3">Catalogs</string>
+
+    <string name="cod_4">6017</string>
+    <string name="str_4">Education</string>
+
+    <string name="cod_5">6016</string>
+    <string name="str_5">Entertainment</string>
+
+    <string name="cod_6">6015</string>
+    <string name="str_6">Finance</string>
+
+    <string name="cod_7">6023</string>
+    <string name="str_7">Food &amp; Drink</string>
+
+    <string name="cod_8">6014</string>
+    <string name="str_8">Games</string>
+
+    <string name="cod_9">6013</string>
+    <string name="str_9">Health &amp; Fitness</string>
+
+    <string name="cod_10">6012</string>
+    <string name="str_10">Lifestyle</string>
+
+    <string name="cod_11">6020</string>
+    <string name="str_11">Medical</string>
+
+    <string name="cod_12">6011</string>
+    <string name="str_12">Music</string>
+
+    <string name="cod_13">6010</string>
+    <string name="str_13">Navigation</string>
+
+    <string name="cod_14">6009</string>
+    <string name="str_14">News</string>
+
+    <string name="cod_15">6021</string>
+    <string name="str_15">Newsstand</string>
+
+    <string name="cod_16">6008</string>
+    <string name="str_16">Photo &amp; Video</string>
+
+    <string name="cod_17">6007</string>
+    <string name="str_17">Productivity</string>
+
+    <string name="cod_18">6006</string>
+    <string name="str_18">Reference</string>
+
+    <string name="cod_19">6005</string>
+    <string name="str_19">Social Networking</string>
+
+    <string name="cod_20">6004</string>
+    <string name="str_20">Sports</string>
+
+    <string name="cod_21">6003</string>
+    <string name="str_21">Travel</string>
+
+    <string name="cod_22">6002</string>
+    <string name="str_22">Utilities</string>
+
+    <string name="cod_23">6001</string>
+    <string name="str_23">Weather</string>
+    <string name="hint_search">Buscar</string>
+    <string name="search">Buscar..</string>
+    <string name="mensaje_error_conexion">No se encuentra conectado a internet.</string>
+    <string name="mensaje_conectar">Conectar.</string>
+    <string name="organizando">Estamos organizando tus Apps.</string>
+    <string name="alert_boton_aceptar">Aceptar</string>
+
+    <string name="alert_titulo_error_conexion">Conexión fallida</string>
+    <string name="alert_mensaje_error_servidor">Se presentó un error con el servidor,
+        por favor consulte con el administrador.</string>
+    <string name="app_detalles">Detalles</string>
+    <string name="datos_cache">Datos obtenidos del cache.</string>
+</resources>

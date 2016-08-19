@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dime_padding_img">10dp</dimen>
+    <dimen name="dime_txt_categorias">20sp</dimen>
+    <dimen name="dime_margin_img_app">10dp</dimen>
+    <dimen name="dime_padding_img_app">5dp</dimen>
+    <dimen name="dime_padding_txt_detalles">50dp</dimen>
+    <dimen name="dime_padding_detalles">30dp</dimen>
+    <dimen name="dime_txt_nombre_app">30sp</dimen>
+    <dimen name="dime_txt_precio_app">25sp</dimen>
+    <dimen name="dime_txt_nom_detalle_app">18sp</dimen>
+    <dimen name="dime_txt_detalles_app">20sp</dimen>
+    <dimen name="dime_margin_layout">10dp</dimen>
+
+    <bool name="portrait_only">true</bool>
+</resources>

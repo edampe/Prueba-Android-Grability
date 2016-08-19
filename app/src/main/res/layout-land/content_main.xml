@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/categorias_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.activity.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <GridView
+        android:id="@+id/grid_categorias"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dime_padding_img"
+        android:layout_marginRight="@dimen/dime_padding_img"
+        android:horizontalSpacing="@dimen/dime_margin_layout"
+        android:numColumns="5" />
+
+</RelativeLayout>
