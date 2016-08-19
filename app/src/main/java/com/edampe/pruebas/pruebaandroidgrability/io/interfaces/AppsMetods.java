@@ -13,7 +13,7 @@ import retrofit2.http.Path;
  */
 public interface AppsMetods {
 
-    @GET("topfreeapplications/limit=20/genre={GENRE}/json")
+    @GET("topfreeapplications/limit=100/genre={GENRE}/json")
     Call<GetFreeApplicationBin> GetTopFreeApplication(@Path("GENRE") String _Genre);
 
 
